@@ -5,21 +5,23 @@ Today we're going to be doing science!
 
 Specifically, we're going to make a hypothesis about what the runtime for a program is, track how long it takes to run given various sized inputs, and verify if our hypothesis are correct. 
 
+
+
 First, let's review the most common big-O notations. Spend some time as a group coming up with examples that might fit each type of big-O notation. Add them to your reflections.txt file. 
 * Constant, O(1)
 * Linear O(n)
 * Quadratic O(n^2) 
-* Exponential O(2^n) 
+* Exponential O(a^n), commonly O(2^n) 
 
-Then, come up with big-O hypotheses for the following functions. Add them to your reflections.txt. Identify what n is in each function. 
 
+
+Then, come up with big-O hypotheses for the following functions. Add them to your reflections.txt. Identify what n could be in each function. 
 * MaxItemInArray
 * IsEven
-* ListDescendents
-* FirstItemInArray
 * AddNumbersOneThroughN_v1
 * AddNumbersOneThroughN_v2
 * AddNumbersOneThroughN_v3
+* ListPossiblePasswords
 
 
 Next, we want to set up how we're going to determine how long it takes code to run. One way to do this would be to use a wall clock and record the start/stop time, but that isn't very accureate. Our computers have a built in clock, so we'll use that instead. In Java, to get the current time, you can use:
@@ -28,8 +30,12 @@ long startTime = System.currentTimeMillis();
 
 So if we want to calcualte the time it takes code to run, we will want to get the start Time before our code runs, and the end time after our code runs. Then the total run time is the difference between the start time and the stop time.
 
-Let's plot our points!
+For n=1,5,10,50,100 determine how long each function takes to run. 
+
+
+Finally, let's plot our points!
 [Linear/Constant/Quadratic](https://stats.blue/Stats_Suite/correlation_regression_calculator.html)
+
 [Exponetial](https://stats.blue/Stats_Suite/exponential_regression_calculator.html)
 
 These calculators will try and create a function that fits your data points the best. They will also provide an r-squared value. The r-squared value is a statistical measurement of how well the function fits your data and ranges from 0 to 1, with 0 being the worst, and 1 being the best. 
