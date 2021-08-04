@@ -20,7 +20,7 @@ Then, come up with big-O hypotheses for the following functions. Add them to you
 * AddNumbersOneThroughN_v1
 * AddNumbersOneThroughN_v2
 * AddNumbersOneThroughN_v3
-* ListPossiblePasswords
+* AddToArray
 
 ## Calculate Runtime: 20 pts
 Next, we want to set up how we're going to determine how long it takes code to run. One way to do this would be to use a wall clock and record the start/stop time, but that isn't very accureate. Our computers have a built in clock, so we'll use that instead. In Java, to get the current time, you can use:
