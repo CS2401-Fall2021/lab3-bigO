@@ -6,7 +6,7 @@ Today we're going to be doing science!
 Specifically, we're going to make a hypothesis about what the runtime for a program is, track how long it takes to run given various sized inputs, and verify if our hypothesis are correct. 
 
 
-
+## Review Big-O
 First, let's review the most common big-O notations. Spend some time as a group coming up with examples that might fit each type of big-O notation. Add them to your reflections.txt file. 
 * Constant, O(1)
 * Linear O(n)
@@ -14,7 +14,7 @@ First, let's review the most common big-O notations. Spend some time as a group 
 * Exponential O(a^n), commonly O(2^n) 
 
 
-
+## Make Hypotheses
 Then, come up with big-O hypotheses for the following functions. Add them to your reflections.txt. Identify what n could be in each function. 
 * MaxItemInArray
 * IsEven
@@ -23,7 +23,7 @@ Then, come up with big-O hypotheses for the following functions. Add them to you
 * AddNumbersOneThroughN_v3
 * ListPossiblePasswords
 
-
+## Calculate Runtime
 Next, we want to set up how we're going to determine how long it takes code to run. One way to do this would be to use a wall clock and record the start/stop time, but that isn't very accureate. Our computers have a built in clock, so we'll use that instead. In Java, to get the current time, you can use:
 
 long startTime = System.currentTimeMillis();
@@ -32,14 +32,15 @@ So if we want to calcualte the time it takes code to run, we will want to get th
 
 For n=1,5,10,50,100 determine how long each function takes to run. 
 
+## Graph the Result
+Finally, let's plot our points! To do so, use the following calculators.
 
-Finally, let's plot our points!
 [Linear/Constant/Quadratic](https://stats.blue/Stats_Suite/correlation_regression_calculator.html)
 
 [Exponetial](https://stats.blue/Stats_Suite/exponential_regression_calculator.html)
 
 These calculators will try and create a function that fits your data points the best. They will also provide an r-squared value. The r-squared value is a statistical measurement of how well the function fits your data and ranges from 0 to 1, with 0 being the worst, and 1 being the best. 
 
-For each graph you generate, please download the jpeg and add it to your github repository with an appropriate name. In reflections.txt, write the function produced by both calcaulators and thier r-squared values. 
+For each graph you generate, please download the jpeg and add it to your github repository with an appropriate name. In reflections.txt, write the function produced by both calcaulators, thier r-squared values, and the big-O runtime of the function based off your graph. Note that it's totally fine if this doesn't match your hypothesis! An important part of science is learning from when your theories are incorrect. 
 
 
