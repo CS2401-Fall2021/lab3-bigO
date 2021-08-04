@@ -15,7 +15,7 @@ Part 2: Hypotheses & Justification
 * AddNumbersOneThroughN_v1:
 * AddNumbersOneThroughN_v2:
 * AddNumbersOneThroughN_v3:
-* ListPossiblePasswords
+* AddToArray
 
 Part 4: Graphs
 
