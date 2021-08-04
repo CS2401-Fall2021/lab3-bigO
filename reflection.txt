@@ -1,0 +1,45 @@
+Part 1: BigO Examples
+
+Constant, O(1)
+
+Linear O(n)
+
+Quadratic O(n^2)
+
+Exponential O(a^n)
+
+
+Part 2: Hypotheses & Justification
+
+* IsEven:
+* AddNumbersOneThroughN_v1:
+* AddNumbersOneThroughN_v2:
+* AddNumbersOneThroughN_v3:
+* ListPossiblePasswords
+
+Part 4: Graphs
+
+* IsEven
+    * Function
+    * R-squared
+    * Big-O: 
+    * Did it match your hypothesis? Why or why not?
+* AddNumbersOneThroughN_v1
+    * Function
+    * R-squared
+    * Big-O: 
+    * Did it match your hypothesis? Why or why not?
+* AddNumbersOneThroughN_v2
+    * Function
+    * R-squared
+    * Big-O: 
+    * Did it match your hypothesis? Why or why not?
+* AddNumbersOneThroughN_v3
+    * Function
+    * R-squared
+    * Big-O: 
+    * Did it match your hypothesis? Why or why not?
+* ListPossiblePasswords
+    * Function
+    * R-squared
+    * Big-O: 
