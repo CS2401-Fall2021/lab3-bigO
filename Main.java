@@ -1,37 +1,40 @@
+
 public class Main {
-  static int[] ns={100,500,1000,5000};
+  static int[] ns={10, 20,30,40,50,60,70,80,90,100,110,500};
   public static void main(String[] args) {
+    // This is to ensure our time doesn't take into account loading the methods.
+    isEven(0);
+    addNumbersOneThroughNv1(0);
+    addNumbersOneThroughNv2(0);
+    guessPassword(0);
+
     timeIsEven();
     timeAddNumbersV1();
     timeAddNumbersV2();
-    timeAddNumbersV3();
-    timeAddToArray();
+    timePassword();
    
   }
 // TODO part 3: Implement code to print out the time it takes to run each method. 
   private static void timeIsEven(){
-      System.out.println("timing isEven for n=");
-      long startTime=System.nanoTime();
-     
-  }
-  
-  private static void timeAddNumbersV1(){
-   
-  }
-  
-   private static void timeAddNumbersV2(){
-    
-  }
- 
-  private static void timeAddNumbersV3(){
-    
-  }
-  
-  private static void timeAddToArray(){
+    System.out.println("timing isEven");
 
   }
   
+  private static void timeAddNumbersV1(){
+    System.out.println("timing NumV1");
+
+  }
   
+   private static void timeAddNumbersV2(){
+     System.out.println("timing NumV2");
+
+  }
+
+  private static void timePassword(){
+    System.out.println("timing password");
+
+  }
+
   private static boolean isEven(int n){		
     return n%2==0;
   }
@@ -49,27 +52,12 @@ public class Main {
   private static int addNumbersOneThroughNv2(int n){
     return n*(n+1)/2;
   }
-  
-  private static int addNumbersOneThroughNv3(int n){
-    int count =0;
-    for(int i=0;i<n;i++){
-        count +=n;
+
+  private static void guessPassword(int n){
+    int count=0;
+    for(int i=0;i<(Math.pow(2,n/10));i++) {
+      count++;
     }
-    return count;
   }
-  
-  private static void addToArray(int n){
-    // create an populate initial array
-    int[] oldArray = new int[n];
-    for(int i=0;i<n;i++){
-      oldArray[i]=i;
-    }
-    // Create and populate inital array with old values
-    int[] newArray = new int[n+1];
-    for(int j=0;j<oldArray.length; j++){
-      newArray[j]= oldArray[j];
-    }
-    // Add new value to the end
-    newArray[n] = -5;
-  }
+
 }
