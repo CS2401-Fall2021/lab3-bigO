@@ -6,11 +6,13 @@ public class Main {
     isEven(0);
     addNumbersOneThroughNv1(0);
     addNumbersOneThroughNv2(0);
+    addNumbersOneThroughNv3(0);
     guessPassword(0);
 
     timeIsEven();
     timeAddNumbersV1();
     timeAddNumbersV2();
+    timeAddNumbersV3();
     timePassword();
    
   }
@@ -25,8 +27,13 @@ public class Main {
 
   }
   
-   private static void timeAddNumbersV2(){
+  private static void timeAddNumbersV2(){
      System.out.println("timing NumV2");
+
+  }
+  
+  private static void timeAddNumbersV3(){
+     System.out.println("timing NumV3");
 
   }
 
@@ -53,6 +60,15 @@ public class Main {
     return n*(n+1)/2;
   }
 
+  private static int addNumbersOneThroughNv3(int n){
+    int count =0;
+    for(int i=0;i<n;i++){
+        count=count+n;
+    }
+    return count;
+  }
+  
+  
   private static void guessPassword(int n){
     int count=0;
     for(int i=0;i<(Math.pow(2,n/10));i++) {
