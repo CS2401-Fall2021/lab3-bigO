@@ -16,25 +16,35 @@ First, let's review the most common big-O notations. Spend some time as a group 
 
 ## Make Hypotheses: 20 pts
 Then, come up with big-O hypotheses for the following functions. Add them to your reflections.txt. Explain your reasoning for your hypothesis. 
-* IsEven
-* AddNumbersOneThroughN_v1
-* AddNumbersOneThroughN_v2
-* AddNumbersOneThroughN_v3
-* AddToArray
 
-## Calculate Runtime: 20 pts
-Next, we want to set up how we're going to determine how long it takes code to run. One way to do this would be to use a wall clock and record the start/stop time, but that isn't very accureate. Our computers have a built in clock, so we'll use that instead. In Java, to get the current time, you can use:
+* addNumbersOneThroughN_v1
+* isEven
+* addNumbersOneThroughN_v2
+* guessPassword
 
-long startTime = System.currentTimeMillis();
+## Calculate Runtime: 30 pts
+Next, we want to set up how we're going to determine how long it takes code to run. One way to do this would be to use a wall clock and record the start/stop time, but that isn't very accureate. Our computers have a built in clock, so we'll use that instead. In Java, to get the current time in nanoseconds, you can use:
+
+long startTime = System.nanoTime();
 
 So if we want to calcualte the time it takes code to run, we will want to get the start Time before our code runs, and the end time after our code runs. Then the total run time is the difference between the start time and the stop time.
 
-For n=1,5,10,50,100 determine how long each function takes to run. 
+For n=10, 20,30,40,50,60,70,80,90,100,110,500 determine how long each function takes to run. 
 
-## Graph the Result: 50 pts (10 pts per method)
+---
+**NOTE**
+
+The first time the method runs, it might take significantly longer. This is due to details about java, which are outside the scope of the course. To get around this issue, we're running each method first with a value of n=0. 
+
+If you are curious, this is because in Java, code can be lazily loaded on first reference which means the first time that code runs, the computer has to do extra work to get the method loaded before it can be run. This is why 
+---
+
+## Graph the Result: 40 pts (10 pts per method)
 Finally, let's plot our points! To do so, use the following calculators.
 
-[Linear/Constant/Quadratic](https://stats.blue/Stats_Suite/correlation_regression_calculator.html)
+[Linear/Constant](https://stats.blue/Stats_Suite/correlation_regression_calculator.html)
+
+[Quadratic](https://stats.blue/Stats_Suite/polynomial_regression_calculator.html)
 
 [Exponetial](https://stats.blue/Stats_Suite/exponential_regression_calculator.html)
 
