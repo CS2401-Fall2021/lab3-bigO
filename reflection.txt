@@ -14,6 +14,7 @@ Part 2: Hypotheses & Justification
 * IsEven:
 * AddNumbersOneThroughN_v1:
 * AddNumbersOneThroughN_v2:
+* AddNumbersOneThroughN_v3:
 * GuessPassword
 
 Part 4: Graphs
@@ -29,6 +30,11 @@ Part 4: Graphs
     * Big-O: 
     * Did it match your hypothesis? Why or why not?
 * AddNumbersOneThroughN_v2
+    * Function
+    * R-squared
+    * Big-O: 
+    * Did it match your hypothesis? Why or why not?
+* AddNumbersOneThroughN_v3
     * Function
     * R-squared
     * Big-O: 
