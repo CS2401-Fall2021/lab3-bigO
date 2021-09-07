@@ -19,7 +19,13 @@ public class Main {
 // TODO part 3: Implement code to print out the time it takes to run each method. 
   private static void timeIsEven(){
     System.out.println("timing isEven");
-
+    for(int i=0;i<ns.length;i++){
+      int n = ns[i];
+      long startTime = System.nanoTime();
+      isEven(n);
+      long endTime = System.nanoTime();
+      System.out.println("n_val="+n + " time="+ (endTime-startTime));
+    }
   }
   
   private static void timeAddNumbersV1(){
