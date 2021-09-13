@@ -34,9 +34,7 @@ For n=10, 20,30,40,50,60,70,80,90,100,110,500 determine how long each function t
 ---
 **NOTE**
 
-The first time the method runs, it might take significantly longer. This is due to details about java, which are outside the scope of the course. To get around this issue, we're running each method first with a value of n=0. 
-
-If you are curious, this is because in Java, code can be lazily loaded on first reference which means the first time that code runs, the computer has to do extra work to get the method loaded before it can be run. This is why 
+The first time the method runs, it might take significantly longer. This is due to details about java, which are outside the scope of the course. To get around this issue, we're running each method first with a value of n=0. If you are curious, this is because in Java, code can be lazily loaded on first reference which means the first time that code runs, the computer has to do extra work to get the method loaded before it can be run. This is why you will see the methods being called first in the main() method.
 ---
 
 ## Graph the Result: 40 pts (10 pts per method)
@@ -53,5 +51,5 @@ These calculators will try and create a function that fits your data points the 
 For each graph you generate, please download the jpeg(2pts) and add it to your github repository with an appropriate name. In reflections.txt, write the function produced by both calcaulators(2 pts), thier r-squared values(2 pts), and the big-O runtime of the function based off your graph(4 pts). Note that it's great if this doesn't match your hypothesis! An important part of science is learning from when your theories are incorrect. For bonus points, if you had an inccorrect hypothesis, what made you think it was that big-O notation? Why did that prove to not be the case?
 
 ## Going Further
-There are many ways to solve a problem. Like we saw in AddNumbersOneThroughN, there are frequenty
+There are many ways to solve a problem. Like we saw in AddNumbersOneThroughN, there are different approaches. Come up with an alternate approach for each bit of code. Does it have a different big-O notation value for runtime? space time? 
 
