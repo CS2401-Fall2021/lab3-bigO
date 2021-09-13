@@ -31,11 +31,11 @@ So if we want to calcualte the time it takes code to run, we will want to get th
 
 For n=10, 20,30,40,50,60,70,80,90,100,110,500 determine how long each function takes to run. 
 
----
+
 **NOTE**
 
 The first time the method runs, it might take significantly longer. This is due to details about java, which are outside the scope of the course. To get around this issue, we're running each method first with a value of n=0. If you are curious, this is because in Java, code can be lazily loaded on first reference which means the first time that code runs, the computer has to do extra work to get the method loaded before it can be run. This is why you will see the methods being called first in the main() method.
----
+
 
 ## Graph the Result: 40 pts (10 pts per method)
 Finally, let's plot our points! To do so, use the following calculators.
