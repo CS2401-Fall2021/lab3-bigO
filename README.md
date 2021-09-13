@@ -1,4 +1,4 @@
-# lab3-bigO (100 pts)
+# lab3-bigO (100 pts) In Class Days: Sept 17th. Due Sept 28th
 
 Today we're going to be doing science!\
 ![stand back](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/9fbc94fa-3770-4723-9f85-ec7a61fb6cbe/d9i34zm-5284e852-53ac-4c16-b1cc-8e363e3bc4e5.png)
