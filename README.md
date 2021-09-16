@@ -19,9 +19,10 @@ First, let's review the most common big-O notations. Spend some time as a group 
 ## Make Hypotheses: 20 pts
 Then, come up with big-O hypotheses for the following functions. Add them to your reflections.txt. Explain your reasoning for your hypothesis. 
 
-* addNumbersOneThroughN_v1
 * isEven
+* addNumbersOneThroughN_v1
 * addNumbersOneThroughN_v2
+* addNumbersOneThroughN_v3
 * guessPassword
 
 ## Calculate Runtime: 30 pts
@@ -39,7 +40,7 @@ For n=10, 20,30,40,50,60,70,80,90,100,110,500 determine how long each function t
 The first time the method runs, it might take significantly longer. This is due to details about java, which are outside the scope of the course. To get around this issue, we're running each method first with a value of n=0. If you are curious, this is because in Java, code can be lazily loaded on first reference which means the first time that code runs, the computer has to do extra work to get the method loaded before it can be run. This is why you will see the methods being called first in the main() method.
 
 
-## Graph the Result: 40 pts (10 pts per method)
+## Graph the Result: 40 pts (8 pts per method)
 Finally, let's plot our points! To do so, use the following calculators.
 
 [Linear/Constant](https://stats.blue/Stats_Suite/correlation_regression_calculator.html)
